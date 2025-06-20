@@ -15,3 +15,4 @@ datos <- read.csv("C:\\Users\\naroa\\Downloads\\netflix_recuperacion.csv")
 #tabla
 summary(datos)
 desv <- sd(datos$release_year,na.rm=T)
+
